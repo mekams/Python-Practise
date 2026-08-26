@@ -20,7 +20,30 @@ print(a[6:9:1],"\n", a[14:17:1],"\n", a[0:5:1])  # This will print "how you Hell
 # a=int(a)
 # print(a)
 
-age = int(input("Enter your age: "))
+# age = int(input("Enter your age: "))
 
-print("Your age is:", age)
-print(f"Your age is: {age}")
+# print("Your age is:", age)
+# print(f"Your age is: {age}")
+
+
+# practice 1
+
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+
+# if num1 > num2:
+#     print(f"{num1} is greater than {num2}")
+# elif num1 < num2:
+#     print(f"{num1} is less than {num2}")
+# else:
+#     print(f"{num1} is equal to {num2}")
+
+# practice 2
+
+gender = input("Enter your gender (M/F): ").strip().upper()
+if gender == "M":
+    print("You are a male.")
+elif gender == "F":
+    print("You are a female.")
+else:
+    print("Invalid input.")
