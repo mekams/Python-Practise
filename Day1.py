@@ -40,10 +40,21 @@ print(a[6:9:1],"\n", a[14:17:1],"\n", a[0:5:1])  # This will print "how you Hell
 
 # practice 2
 
-gender = input("Enter your gender (M/F): ").strip().upper()
-if gender == "M":
-    print("You are a male.")
-elif gender == "F":
-    print("You are a female.")
+# gender = input("Enter your gender (M/F): ").strip().upper()
+# if gender == "M":
+#     print("You are a male.")
+# elif gender == "F":
+#     print("You are a female.")
+# else:
+#     print("Invalid input.")
+
+
+# practice 3
+
+year = int(input("Enter a year: "))
+if year % 100 == 0 and year % 400 == 0:
+    print(f"{year} is a leap year.")     
+elif year % 4 == 0 and year % 100 != 0:
+    print(f"{year} is a leap year.")
 else:
-    print("Invalid input.")
+    print(f"{year} is not a leap year.")
