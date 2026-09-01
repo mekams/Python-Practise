@@ -51,10 +51,21 @@ print(a[6:9:1],"\n", a[14:17:1],"\n", a[0:5:1])  # This will print "how you Hell
 
 # practice 3
 
-year = int(input("Enter a year: "))
-if year % 100 == 0 and year % 400 == 0:
-    print(f"{year} is a leap year.")     
-elif year % 4 == 0 and year % 100 != 0:
-    print(f"{year} is a leap year.")
+# year = int(input("Enter a year: "))
+# if year % 100 == 0 and year % 400 == 0:
+#     print(f"{year} is a leap year.")     
+# elif year % 4 == 0 and year % 100 != 0:
+#     print(f"{year} is a leap year.")
+# else:
+#     print(f"{year} is not a leap year.")
+
+
+temp = int(input("Enter the temperature in Celsius: "))
+if temp >= -5 and temp <= 5:
+    print("The weather is very cold.")
+elif temp > 5 and temp <= 15:
+    print("The weather is cool.")
+elif temp > 15 and temp <= 25:
+    print("The weather is warm.")
 else:
-    print(f"{year} is not a leap year.")
+    print("The weather is hot.")
