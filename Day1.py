@@ -60,12 +60,17 @@ print(a[6:9:1],"\n", a[14:17:1],"\n", a[0:5:1])  # This will print "how you Hell
 #     print(f"{year} is not a leap year.")
 
 
-temp = int(input("Enter the temperature in Celsius: "))
-if temp >= -5 and temp <= 5:
-    print("The weather is very cold.")
-elif temp > 5 and temp <= 15:
-    print("The weather is cool.")
-elif temp > 15 and temp <= 25:
-    print("The weather is warm.")
-else:
-    print("The weather is hot.")
+# temp = int(input("Enter the temperature in Celsius: "))
+# if temp >= -5 and temp <= 5:
+#     print("The weather is very cold.")
+# elif temp > 5 and temp <= 15:
+#     print("The weather is cool.")
+# elif temp > 15 and temp <= 25:
+#     print("The weather is warm.")
+# else:
+#     print("The weather is hot.")
+
+
+n =int(input("Enter a number to get the multiplication table: "))
+for i in range(n,(n*10)+1,n):
+    print(i)
