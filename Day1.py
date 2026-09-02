@@ -71,6 +71,33 @@ print(a[6:9:1],"\n", a[14:17:1],"\n", a[0:5:1])  # This will print "how you Hell
 #     print("The weather is hot.")
 
 
-n =int(input("Enter a number to get the multiplication table: "))
-for i in range(n,(n*10)+1,n):
-    print(i)
+# n =int(input("Enter a number to get the multiplication table: "))
+# for i in range(n,(n*10)+1,n):
+#     print(i)
+
+# a= "Students"
+# for i in range(len(a)):
+#         print(f"{i}: {a[i]}")
+
+
+# factorial = 1
+# n = int(input("Enter a number to calculate its factorial: "))
+# for i in range(1, n + 1):
+#     print(i)
+#     factorial = factorial * i
+# print(f"The factorial of {n} is {factorial}")
+
+
+
+# nums = int(input("Enter the number : "))
+# even_sum = 0
+# odd_sum = 0
+
+# for i in range(1, nums + 1):
+#     if i % 2 == 0:
+#         even_sum += i
+#     else:
+#         odd_sum += i
+
+# print(f"The even sum is {even_sum}")
+# print(f"The odd sum is {odd_sum}")
