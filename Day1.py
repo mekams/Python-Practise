@@ -102,8 +102,22 @@ print(a[6:9:1],"\n", a[14:17:1],"\n", a[0:5:1])  # This will print "how you Hell
 # print(f"The even sum is {even_sum}")
 # print(f"The odd sum is {odd_sum}")
 
-n = int(input("Enter a number: "))
+# n = int(input("Enter a number: "))
 
-for i in range(1, n + 1):
-    if n % i == 0:
-        print(f"{i} is a factor of {n}")
+# for i in range(1, n + 1):
+#     if n % i == 0:
+#         print(f"{i} is a factor of {n}")
+
+
+num = int(input("Enter a number: "))
+
+perfect_sum = 0
+
+for i in range(1, num):
+    if num % i == 0:
+        perfect_sum += i  
+
+if  num == perfect_sum:
+    print(f"{num} is a perfect number.")
+else:
+    print(f"{num} is not a perfect number.")
