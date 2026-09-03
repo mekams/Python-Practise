@@ -140,11 +140,44 @@ print(a[6:9:1],"\n", a[14:17:1],"\n", a[0:5:1])  # This will print "how you Hell
 #String questions:
 
 
-a = input("Enter a string: ")
+# a = input("Enter a string: ")
 
-word = ""
+# word = ""
 
-for i in range(len(a)-1, -1, -1):
-    word += a[i]
+# for i in range(len(a)-1, -1, -1):
+#     word += a[i]
 
-print(f"The reverse of the string '{a}' is '{word}'")
+# print(f"The reverse of the string '{a}' is '{word}'")
+
+
+# a = input("Enter a string: ")
+# rev = ""
+# for i in range (len(a)-1, -1, -1):
+#     rev = rev + a[i]
+
+# if rev == a:
+#     print ("string is palindrome ")
+
+# else :
+#     print("not palindrome")    
+
+
+
+
+# a ="P@y#n26at^&i5ve"
+
+# digits = 0
+# chars = 0
+# spchar = 0
+
+# for i in a:
+#     if ord(i) >= 65 and ord(i) <= 90 or ord(i) >= 97 and ord(i) <= 122:
+#         chars += 1
+#     elif ord(i) >= 48 and ord(i) <= 57:
+#         digits += 1
+#     else:
+#         spchar += 1
+
+# print(f"The counts are : chars - {chars} , digits - {digits}, Special Chars - {spchar}")
+
+# print(ord("Z"))
