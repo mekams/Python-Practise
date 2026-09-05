@@ -185,3 +185,27 @@ print(a[6:9:1],"\n", a[14:17:1],"\n", a[0:5:1])  # This will print "how you Hell
 
 # While Loop
 
+# a = 0
+# while a!=19:
+#     print(a)
+#     a+=1
+
+
+# a = 456
+# while a>0:
+#     print(a%10)
+#     print (a)
+#     a= a//10
+
+
+a = 963
+rev = 0
+
+while a > 0:
+    rev = rev*10 + a % 10
+    a //=10
+
+print(rev)
+
+
+
