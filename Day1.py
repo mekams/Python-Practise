@@ -198,14 +198,26 @@ print(a[6:9:1],"\n", a[14:17:1],"\n", a[0:5:1])  # This will print "how you Hell
 #     a= a//10
 
 
-a = 963
-rev = 0
+# a = 963
+# rev = 0
 
-while a > 0:
-    rev = rev*10 + a % 10
-    a //=10
+# while a > 0:
+#     rev = rev*10 + a % 10
+#     a //=10
 
-print(rev)
+# print(rev)
+
+
+# a = int(input("Enter your number to check : "))
+# rev = 0
+# copy = a
+# while a > 0:
+#     rev = rev*10 + a % 10
+#     a //=10
+# if copy == rev:
+#     print("palindrome")
+# else:
+#     print("Not Palindrome" )
 
 
 
