@@ -181,3 +181,7 @@ print(a[6:9:1],"\n", a[14:17:1],"\n", a[0:5:1])  # This will print "how you Hell
 # print(f"The counts are : chars - {chars} , digits - {digits}, Special Chars - {spchar}")
 
 # print(ord("Z"))
+
+
+# While Loop
+
